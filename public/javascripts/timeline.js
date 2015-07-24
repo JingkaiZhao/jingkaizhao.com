@@ -6,14 +6,41 @@ jQuery(document).ready(function($) {
     hideBlocksOnInit(timelineBlocks, offset);
 
     //on scolling, show/animate timeline blocks when enter the viewport
+    // $(window).on('scroll', function() {
+    //     (!window.requestAnimationFrame) ? setTimeout(function() {
+    //         showBlocks(timelineBlocks, offset);
+    //         // hideBlocksWithAnimation(timelineBlocks, offset);
+    //     }, 100): window.requestAnimationFrame(function() {
+    //         showBlocks(timelineBlocks, offset);
+    //         // hideBlocksWithAnimation(timelineBlocks, offset);
+    //     });
+    // });
+
+    var scrollTopBefore = $(window).scrollTop();
+
     $(window).on('scroll', function() {
-        (!window.requestAnimationFrame) ? setTimeout(function() {
-            showBlocks(timelineBlocks, offset);
-            // hideBlocksWithAnimation(timelineBlocks, offset);
-        }, 100): window.requestAnimationFrame(function() {
-            showBlocks(timelineBlocks, offset);
-            // hideBlocksWithAnimation(timelineBlocks, offset);
-        });
+        var scrollTopAfter = $(window).scrollTop();
+        var delta = scrollTopAfter - scrollTopBefore;
+        console.log(delta);
+        if (delta == 0) return false;
+        if (delta > 0) {
+            // scroll down
+            (!window.requestAnimationFrame) ? setTimeout(function() {
+                showBlocks(timelineBlocks, offset);
+                // hideBlocksWithAnimation(timelineBlocks, offset);
+            }, 100): window.requestAnimationFrame(function() {
+                showBlocks(timelineBlocks, offset);
+                // hideBlocksWithAnimation(timelineBlocks, offset);
+            });
+        } else {
+            // scroll up
+            (!window.requestAnimationFrame) ? setTimeout(function() {
+                hideBlocksWithAnimation(timelineBlocks, offset);
+            }, 100): window.requestAnimationFrame(function() {
+                hideBlocksWithAnimation(timelineBlocks, offset);
+            });
+        }
+        scrollTopBefore = scrollTopAfter;
     });
 
 
@@ -25,7 +52,7 @@ jQuery(document).ready(function($) {
 
     function hideBlocksWithAnimation(blocks, offset) {
         blocks.each(function() {
-            ($(this).offset().top > $(window).scrollTop() + $(window).height() * offset) && $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('bounce-out');
+            ($(this).offset().top > $(window).scrollTop() + $(window).height() && $(this).find('.cd-timeline-img').hasClass('bounce-in')) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('bounce-in').addClass('is-hidden');
         });
     }
 
