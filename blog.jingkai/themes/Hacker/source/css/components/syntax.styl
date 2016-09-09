@@ -1,6 +1,36 @@
+// Config -----------------------------------
+syntax-hue = 230
+syntax-saturation = 1%
+syntax-brightness = 98%
+
+
+// Monochrome -----------------------------------
+mono-1 = hsl(syntax-hue, 8%, 24%)
+mono-2 = hsl(syntax-hue, 6%, 44%)
+mono-3 = hsl(syntax-hue, 4%, 64%)
+
+hue-1 = hsl(198, 99%, 37%) // <-cyan
+hue-2 = hsl(221, 87%, 60%) // <-blue
+hue-3 = hsl(301, 63%, 40%) // <-purple
+hue-4 = hsl(119, 34%, 47%) // <-green
+
+hue-5 = hsl(  5, 74%, 59%) // <-red 1
+hue-5-2 = hsl(344, 84%, 43%) // <-red 2
+
+hue-6 = hsl(41, 99%, 30%) // <-orange 1
+hue-6-2 = hsl(41, 99%, 38%) // <-orange 2
+
+
+// Base colors -----------------------------------
+syntax-fg = mono-1
+syntax-bg = hsl(syntax-hue, syntax-saturation, syntax-brightness)
+syntax-gutter = darken(syntax-bg, 36%)
+syntax-guide = fade(syntax-fg, 20%)
+syntax-accent = hsl(syntax-hue, 100%, 66%)
+
 .entry
   .gist
-    background #eee
+    background syntax-bg
     border 1px solid white
     margin 15px 0px
     padding 7px 15px
@@ -33,7 +63,7 @@
             color color-link
 
 figure.highlight
-  background #eee
+  background syntax-bg
   border 1px solid color-border
   margin 1em 0
   padding 1em
@@ -61,10 +91,10 @@ figure.highlight
     border-spacing 0
 
   .gutter
-    color color-meta
+    color syntax-gutter
     width 20px
     padding-right 15px
-    border-right 1px solid color-border
+    border-right 1px solid #eee
     text-align right
 
   .code
@@ -85,7 +115,7 @@ pre
   .pi
   .lisp .string
   .javadoc
-    color #93a1a1
+    color mono-3
     font-style italic
 
   .keyword
@@ -96,7 +126,7 @@ pre
   .request
   .status
   .nginx .title
-    color #859900
+    color hue-3
 
   .number
   .command
@@ -106,7 +136,7 @@ pre
   .tex .formula
   .regexp
   .hexcolor
-    color #2aa198
+    color hue-4
 
   .title
   .localvars
@@ -117,7 +147,7 @@ pre
   .vhdl
   .literal
   .id
-    color #268bd2
+    color hue-2
 
   .attribute
   .variable
@@ -127,7 +157,7 @@ pre
   .class .title
   .parent
   .haskell .type
-    color #b58900
+    color hue-5
 
   .preprocessor
   .preprocessor .keyword
@@ -141,7 +171,7 @@ pre
   .subst
   .cdata
   .clojure .title
-    color #cb4b16
+    color hue-1
 
   .deletion
     color #dc322f
