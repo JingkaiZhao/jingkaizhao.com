@@ -17,3 +17,5 @@ function Person() {
     }
 }
 ```
+
+**deploy to vps by rsync**
