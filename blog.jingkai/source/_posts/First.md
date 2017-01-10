@@ -3,19 +3,24 @@ title: First
 date: 2016-09-08 23:50:29
 tags:
 ---
-Hello, this is my first post.
+OK, 搭好了，主题就先这个吧，有空改一改。
 
-let me show some code here.
+什么时候开始写呢...
+
+有空再说吧。
+
+看看代码长什么样
 
 ```javascript
 var name = 'Jingkai';
-let age = 25;
+let age = 50;
 const gender = 'male';
-function Person() {
-    this.print = (name, age, gender) => {
-        console.log(name, age);
+function Person(name, age, gender) {
+    this.print = () => {
+        console.log(name, age, gender);
     }
 }
+let j = new Person(name, age, gender);
+j.print();
 ```
 
-**deploy to vps by rsync**
