@@ -1,7 +1,9 @@
 ---
 title: WebAssembly初试
 date: 2017-01-10 23:27:06
-tags: frontend webassembly
+tags: 
+- frontend 
+- webassembly
 ---
 
 WebAssembly这个东西最近总是听人提起，有点意思，看样要搞一搞。
