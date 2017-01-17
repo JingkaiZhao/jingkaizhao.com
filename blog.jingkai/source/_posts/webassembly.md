@@ -26,7 +26,7 @@ Google一发，第一个就是，<http://webassembly.org/>点进去看一下。
 
 然后看[Developer Guide](http://webassembly.org/getting-started/developers-guide/)，需要的工具（Mac）有CMake，Xcode和Python 2.7.x。
 
-CMake如果没装过要装一会，Mac直接```brew install cmake```就好了。
+CMake如果没装过要装一会，Mac直接`brew install cmake`就好了。
 
 有virtualenv的化用virtualenv创建一个新的env
 
