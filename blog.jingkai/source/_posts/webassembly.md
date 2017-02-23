@@ -1,9 +1,10 @@
 ---
 title: WebAssembly初试
 date: 2017-01-10 23:27:06
-tags: 
-- frontend 
+tags:
+- frontend
 - webassembly
+thumbnail: /images/wasm.png
 ---
 
 WebAssembly这个东西最近总是听人提起，有点意思，看样要搞一搞。
@@ -55,7 +56,7 @@ $ ./emsdk install sdk-incoming-64bit binaryen-master-64bit
 接着
 
 ```shel
-$ ./emsdk activate sdk-incoming-64bit binaryen-master-64bit 
+$ ./emsdk activate sdk-incoming-64bit binaryen-master-64bit
 $ source ./emsdk_env.sh
 ```
 

@@ -2,6 +2,10 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/hexo server",
+    "hexo": "./node_modules/.bin/hexo"
+  },
   "hexo": {
     "version": "3.2.2"
   },
