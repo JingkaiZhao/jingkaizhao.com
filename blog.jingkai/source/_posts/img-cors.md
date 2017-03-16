@@ -2,9 +2,10 @@
 title: 非跨域图片缓存导致跨域图片请求失败
 tags:
   - frontend
-thumbnail: 
 date: 2017-03-02 23:55:14
+thumbnail:
 ---
+
 
 前阵子同事子龙遇到了一个BUG，百思不得其解。问题是这样的：
 
