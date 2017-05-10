@@ -58,10 +58,10 @@ sidebar:
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        github:
+            title: global.github
+            url: https://github.com/jkzing
+            icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -82,10 +82,10 @@ sidebar:
         #     title: global.linkedin
         #     url: https://www.linkedin.com/profile/
         #     icon: linkedin
-        # mail:
-        #     title: global.mail
-        #     url: mailto:
-        #     icon: envelope-o
+        mail:
+            title: global.mail
+            url: mailto:jingkai.zhao@foxmail.com
+            icon: envelope-o
     rss:
         rss:
             title: global.rss
@@ -132,7 +132,7 @@ author:
 # 2: Display medium sidebar on large and medium screen and header bar on small screen and medium sidebar is swiped (default)
 # 3: Display header bar on all screens and large sidebar is swiped
 # 4: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 2
+sidebar_behavior: 1
 # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: true
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
