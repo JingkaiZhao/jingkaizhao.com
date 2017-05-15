@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/.bin/hexo server --draft",
-    "hexo": "./node_modules/.bin/hexo"
+    "start": "hexo server --draft",
+    "hexo": "hexo",
+    "publish": "hexo g -d"
   },
   "hexo": {
     "version": "3.2.2"
