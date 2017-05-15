@@ -6,3 +6,9 @@ script:
 branches:
   only:
     - master
+cache:
+  directories:
+  - node_modules
+addons:
+  ssh_known_hosts:
+  - 23.83.229.230
