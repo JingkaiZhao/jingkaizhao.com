@@ -1,14 +1,17 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
 script:
-  - npm run publish
+- npm run publish
 branches:
   only:
-    - master
+  - master
 cache:
   directories:
   - node_modules
 addons:
   ssh_known_hosts:
   - 23.83.229.230:28557
+before_install:
+- openssl aes-256-cbc -K $encrypted_a44a41e1492a_key -iv $encrypted_a44a41e1492a_iv
+  -in deploy-key.enc -out deploy-key -d
