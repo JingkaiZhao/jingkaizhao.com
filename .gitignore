@@ -2,6 +2,8 @@
 Thumbs.db
 db.json
 *.log
+*.un~
 node_modules/
+!themes/tranquilpeak/node_modules/
 public/
 .deploy*/
