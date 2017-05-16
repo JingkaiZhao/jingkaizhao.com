@@ -5,7 +5,7 @@
   "scripts": {
     "start": "hexo server --draft",
     "hexo": "hexo",
-    "publish": "hexo g -d"
+    "publish": "hexo generate -f -d"
   },
   "hexo": {
     "version": "3.2.2"
