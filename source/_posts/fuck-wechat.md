@@ -4,10 +4,11 @@ date: 2016-12-05 22:47:37
 tags: 
 - frontend
 - wechat
-autoThumbnailImage: true
 ---
 
 微信的坑实在太多了...
+
+<!-- more -->
 
 这次遇到的是有关微信图文消息的：微信图文消息接口接收一段html string，然后生成图文消息时会生成一个包裹这段html的页面。
 

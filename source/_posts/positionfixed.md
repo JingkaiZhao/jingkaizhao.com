@@ -8,6 +8,8 @@ tags:
 
 几天前遇到个很尴尬的问题，有关`position: fixed`。问题是这样的：
 
+<!-- more -->
+
 写了个带overlay的Dialog，代码大概长这样的：
 
 ```jsx

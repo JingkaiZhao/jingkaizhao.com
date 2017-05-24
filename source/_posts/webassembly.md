@@ -9,6 +9,8 @@ thumbnail: /images/wasm.png
 
 WebAssembly这个东西最近总是听人提起，有点意思，看样要搞一搞。
 
+<!-- more -->
+
 先看看这个东西是什么吧。
 
 Google一发，第一个就是，<http://webassembly.org/>点进去看一下。

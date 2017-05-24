@@ -4,8 +4,8 @@
   "description": "A gorgeous responsive theme for Hexo blog framework",
   "main": "Gruntfile.js",
   "scripts": {
-    "start": "grunt default",
-    "prod": "grunt buildProd",
+    "start": "node_modules/.bin/grunt default",
+    "prod": "node_modules/.bin/grunt buildProd",
     "lint": "./node_modules/eslint/bin/eslint.js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -10,13 +10,13 @@ tags:
 
 页面（移动端）中部有个toolbar，希望实现当页面向上滚动时，如果toolbar碰到了页面顶端就fix在页面顶端（也就是滚着滚着然后toolbar吸在屏幕顶端的感觉）。
 
+<!-- more -->
+
 想到最简单的实现方法就是监听scroll事件，判断scrollTop，当scrollTop达到某个值时，把toolbar设成`position:fixed; top: 0;`。So easy...
 
 But...
 
 移动端iOS8下，当滚动的时候，toolbar总是吸不住！具体表现为当“用力”往上一滑时，页面会一直向上滚，然后等滚动停止之后toolbar才fix在顶部。感觉是设置`style.positoin = 'fixed'`的代码延迟到滚动结束才执行。
-
-
 
 Google之，发现：
 
