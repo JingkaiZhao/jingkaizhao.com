@@ -4,6 +4,7 @@ date: 2016-12-05 22:47:37
 tags: 
 - frontend
 - wechat
+autoThumbnailImage: true
 ---
 
 微信的坑实在太多了...

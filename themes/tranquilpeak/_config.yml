@@ -37,15 +37,15 @@ sidebar:
             icon: home
         categories:
             title: global.categories
-            url: /categories
+            url: /all-categories
             icon: bookmark
         tags:
             title: global.tags
-            url: /tags
+            url: /all-tags
             icon: tags
         archives:
             title: global.archives
-            url: /archives
+            url: /all-archives
             icon: archive
         search:
             title: global.search
