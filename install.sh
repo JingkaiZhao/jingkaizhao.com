@@ -8,6 +8,7 @@ chmod 600 deploy-key
 mv deploy-key ~/.ssh/id_rsa
 cd themes/tranquilpeak
 npm install
-npm install grunt -g
-bower install
-npm run prod
+# only need run once for one CI machine
+# npm install grunt -g
+# bower install
+# npm run prod
