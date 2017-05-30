@@ -29,7 +29,8 @@
     }
     .post-content {
         text-rendering: optimizelegibility;
-        letter-spacing: -0.3px;
+        // JK: remove it for CHN font
+        // letter-spacing: -0.3px;
         font-family:    map-get($font-families, 'post-content');
         color:          map-get($colors, base);
         margin-top:     20px;
