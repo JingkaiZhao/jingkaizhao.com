@@ -1,9 +1,11 @@
 ---
 title: Chrome下最小字体12px
 tags:
-- frontend
-- css
+  - frontend
+  - css
+date: 2017-05-30 21:14:30
 ---
+
 
 前端开发老司机都知道在Chrome下面有个蛋疼的问题：字体大小不能小于12px。但是尴尬的问题在于，有时候设计师就是要求你用10px、8px的字，你能怎么办？
 
