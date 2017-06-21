@@ -58,6 +58,10 @@ sidebar:
             url: /#about
             icon: question
     author_links:
+        about:
+            title: 技能点
+            url: /skills
+            icon: tree
         github:
             title: global.github
             url: https://github.com/jkzing
