@@ -1,12 +1,9 @@
 ---
-title: jsconf2017-1
+title: JSConf 2017（上）
 tags:
   - frontend
 date: 2017-07-15 22:38:51
 ---
-
-
-# JSConf 2017（上）
 
 
 
