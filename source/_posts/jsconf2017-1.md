@@ -7,11 +7,19 @@ date: 2017-07-15 22:38:51
 
 
 
+JSConf2017 第一天记（tu）录（cao）。
+
+<!-- more -->
+
+
+
 ## Programming the Universal Future with Next.js
 
 Next入门教程，不细说了，官方文档有。
 现场敲代码demo，好评！VIM党，好评！tmux，666！
 推一波Next.js 3.0（这个广告我接受！有空试下）
+
+
 
 ## 理解现代Web开发
 
@@ -26,6 +34,8 @@ Next入门教程，不细说了，官方文档有。
 
 其他时间没有get到point（或者本来就没有point）。
 
+
+
 ## 后ES6时代JavaScript语言
 
 **Hax**
@@ -37,6 +47,8 @@ Next入门教程，不细说了，官方文档有。
 最后展望了下已经进入到stage-0阶段的新feature，比如matches（有意思，语法奇葩让人有点懵逼）。
 
 留下一个有用的网站：[prop-tc39.now.sh](http://prop-tc39.now.sh)。
+
+
 
 ## 前端工程中的编译时优化
 
@@ -52,15 +64,19 @@ Next入门教程，不细说了，官方文档有。
 
 这个是之前看标题就比较期待的，干货很多，特别是在Vue中的实践，最近在Vue的代码中或多或少能找到一些影子。
 
+
+
 ## 学习React-Native的历程，blablabla
 
-** ？？？**
+**Neo Nie**
 
 睡着了，感觉大哥前端开发经验有限。
 
+
+
 ## TypeScript，Angular，和移动端的跨平台开发
 
-** ？？？** Google什么部门的技术经理，英语很棒
+**Ryan Chen** Google ChromeCast Engineer Manager，英语很棒
 
 **Everyone loves TypeScript.**
 
@@ -70,11 +86,13 @@ Next入门教程，不细说了，官方文档有。
 
 安利NativeScript这一段还不错，现场敲代码Demo，有空研究下。
 
-## RuffOS blablabla
 
-** ？？？ **
 
-这个也是之前比较期待的，因为前段时间差点卖了Ruff的开发板（捂脸）。
+## 如何利用Ruff OS物联网操作系统快速开发硬件产品
+
+**郑晔**
+
+这个也是之前比较期待的，因为前段时间差点买了Ruff的开发板（捂脸）。
 
 实际也有现场Demo，Demo了用Ruff开发版写出”按下按钮LED亮，松开按钮LED灭“的简单程序。后面是一堆Ruff这个公司要干什么的可有可无的介绍。
 
