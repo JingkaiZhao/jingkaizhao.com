@@ -3,7 +3,7 @@ node_js:
 - '6'
 addons:
   ssh_known_hosts:
-  - 23.83.229.230:28557
+  - jkzing.com
 before_install:
 - bash install.sh
 script:

@@ -69,10 +69,10 @@ theme: tranquilpeak
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: 23.83.229.230
+  host: jkzing.com
   user: root
   root: /root/blog
-  port: 28557
+  port: 443
   delete: true
   verbose: true
   ignore_errors: false
