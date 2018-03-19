@@ -72,7 +72,6 @@ deploy:
   host: jkzing.com
   user: root
   root: /root/blog
-  port: 443
   delete: true
   verbose: true
   ignore_errors: false
