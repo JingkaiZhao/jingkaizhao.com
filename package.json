@@ -24,7 +24,5 @@
   },
   "author": "jkzing <jingkai.zhao@foxmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "prismjs": "^1.15.0"
-  }
+  "dependencies": {}
 }
