@@ -1,0 +1,119 @@
+/**
+ * Based on https://github.com/PrismJS/prism/blob/master/themes/prism-tomorrow.css
+ */
+@require './bluloco-colors'
+
+code[class*="language-"],
+pre[class*="language-"]
+  color $mono-1
+  background none
+  font-family Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+  text-align left
+  white-space pre
+  word-spacing normal
+  word-break normal
+  word-wrap normal
+  line-height 1.5
+
+  -moz-tab-size 4
+  -o-tab-size 4
+  tab-size 4
+
+  -webkit-hyphens none
+  -moz-hyphens none
+  -ms-hyphens none
+  hyphens none
+
+
+/* Code blocks */
+pre[class*="language-"]
+  padding 1em
+  margin .5em 0
+  overflow auto
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"]
+  background $syntax-bg
+
+/* Inline code */
+:not(pre) > code[class*="language-"]
+  padding .1em
+  border-radius .3em
+  white-space normal
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata
+  color $mono-3
+  font-style italic
+
+.token.punctuation
+  color $mono-1
+
+.token.tag,
+.token.namespace
+  color $syntax-tag
+
+.token.attr-name
+  color $syntax-attr
+
+.token.deleted
+  color #e2777a
+
+.token.function-name
+  color $syntax-method
+
+.token.boolean
+  color $syntax-keyword
+
+.token.number
+  color $syntax-number
+
+.token.function
+  color $syntax-method
+
+.token.class-name
+  color $syntax-class
+
+.token.constant,
+.token.symbol
+  color $syntax-constant
+
+.token.property
+  color $syntax-field
+
+.token.selector
+  color $syntax-attr
+
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin
+  color $syntax-keyword
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable
+  color $syntax-string
+
+.token.operator,
+.token.entity,
+.token.url
+  color $syntax-operator
+
+.token.important,
+.token.bold
+  font-weight bold
+
+.token.italic
+  font-style italic
+
+.token.entity
+  cursor help
+
+.token.inserted
+  color green

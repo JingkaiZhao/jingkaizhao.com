@@ -1,34 +1,36 @@
+@require './bluloco-colors'
+
 .content
   code
-    color lighten($textColor, 20%)
+    color $mono-1
     padding 0.25rem 0.5rem
     margin 0
     font-size 0.85em
-    background-color rgba(27,31,35,0.05)
+    background-color $syntax-bg
     border-radius 3px
     .token
       &.deleted
         color #EC5975
       &.inserted
-        color $accentColor
+        color $syntax-accent
 
 .content
   pre, pre[class*="language-"]
     line-height 1.4
     padding 1.25rem 1.5rem
     margin 0.85rem 0
-    background-color $codeBgColor
+    background-color $syntax-bg
     border-radius 6px
     overflow auto
     code
-      color #fff
+      color $mono-1
       padding 0
       background-color transparent
       border-radius 0
 
 div[class*="language-"]
   position relative
-  background-color $codeBgColor
+  background-color $syntax-bg
   border-radius 6px
   .highlight-lines
     user-select none
@@ -50,7 +52,7 @@ div[class*="language-"]
     top 0.8em
     right 1em
     font-size 0.75rem
-    color rgba(255, 255, 255, 0.4)
+    color $mono-1
   &:not(.line-numbers-mode)
     .line-numbers-wrapper
       display none

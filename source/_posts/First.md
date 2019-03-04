@@ -15,9 +15,13 @@ OK, 搭好了，主题就先这个吧，有空改一改。
 var name = 'Jingkai';
 let age = 50;
 const gender = 'male';
+
+/**
+ * Block comment here
+ */
 function Person(name, age, gender) {
     this.print = () => {
-        console.log(name, age, gender);
+        console.log(name, age, gender); // I am inline comment
     }
 }
 let j = new Person(name, age, gender);
