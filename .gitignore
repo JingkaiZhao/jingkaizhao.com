@@ -1,4 +1,5 @@
 .DS_Store
+.temp
 Thumbs.db
 db.json
 *.log
