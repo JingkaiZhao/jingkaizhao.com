@@ -1,9 +1,7 @@
 <template>
   <BasicLayout>
-    <div class="layout-content">
-      <h1 class="big-title">Blog</h1>
-      <PostList :posts="$pagination.posts" />
-    </div>
+    <h1 class="big-title">Blog</h1>
+    <PostList :posts="$pagination.posts" />
   </BasicLayout>
 </template>
 
@@ -20,8 +18,6 @@ export default {
 <style src="../styles/theme.styl" lang="stylus"></style>
 
 <style lang="stylus" scoped>
-.layout-content
-  min-height calc(100vh - 237px)
 .big-title
   text-align center
   font-size 2.25rem

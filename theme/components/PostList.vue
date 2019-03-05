@@ -6,7 +6,7 @@
           <div class="date">
             <span>{{ post.frontmatter.date }}</span>
           </div>
-          <a class="title" href="/blog/announcing-transfer-in-for-domains">{{ post.title }}</a>
+          <a class="title" :href="post.path">{{ post.title }}</a>
           <div class="authors">
             <div class="author">
               <span>
