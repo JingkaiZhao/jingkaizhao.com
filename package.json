@@ -21,7 +21,7 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
-    "jquery": "^3.2.1"
+    "jquery": "^3.4.0"
   },
   "devDependencies": {
     "prompt": "^1.0.0"
